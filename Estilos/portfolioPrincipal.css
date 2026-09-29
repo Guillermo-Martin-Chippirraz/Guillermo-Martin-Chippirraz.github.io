@@ -184,7 +184,7 @@ a.link:hover {
 
 /* Botones */
 
-.button {
+button {
     display: inline-block;
     padding: .9rem 1.4rem;
     border-radius: 10px;
@@ -194,12 +194,12 @@ a.link:hover {
     transition: .3s;
 }
 
-.button:hover {
+button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
 }
 
-.button-outline {
+button.button-outline {
     display: inline-block;
     padding: .9rem 1.4rem;
     border-radius: 10px;
