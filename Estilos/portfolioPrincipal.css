@@ -69,7 +69,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-items: center;
     padding: 1rem 2rem;
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
@@ -80,6 +79,10 @@ header div {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+header div div {
+    align-content: center;
 }
 
 
