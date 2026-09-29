@@ -75,6 +75,11 @@ header {
     border-bottom: 1px solid var(--border);
 }
 
+header div {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* Logo */
 
@@ -142,7 +147,7 @@ nav a:hover {
 /* Imágenes */
 
 .circular-image {
-    width: 300px;
+    max-width: 100px;
     aspect-ratio: 1;
     border-radius: 50%;
     overflow: hidden;
