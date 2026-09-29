@@ -11,19 +11,22 @@
 
 <body>
     <header>
-        <div><img src="" alt=""><button></button><button></button><button></button></div>
+        <div>
+            <img src="/Recursos/Imágenes/Ape.jpg" alt="logo">
+            <div><button onclick="location.href='https://github.com/Guillermo-Martin-Chippirraz'">GitHub</button><button onclick="location.href='www.linkedin.com/in/guillermo-martín-chippirraz-36958443b'">LinkedIn</button><button onclick="location.href='mailto:martinchippirrazguillermo@gmail.com'">Gmail</button></div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="projects.html">Proyectos</a></li>
-                <li><a href="aboutme.html">Sobre mí</a></li>
+                <li><a href="aboutMe.html">Sobre mí</a></li>
                 <li><a href="contact.html">Contacto</a></li>
-                <li><a href="curriculumVitae.html">CV</a></li>
+                <li><a href="Recursos/Docs/Guillermo Martín Chippirraz.pdf" download>CV</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="contactHero">
+        <section id="hero">
             <h2>Contacto</h2>
             <p>¿Quieres colaborar, comentar un proyecto o simplemente pnerte en contacto conmigo?</p>
         </section>
@@ -45,14 +48,14 @@
         <section id="redesProfesionales">
             <h2>Redes profesionales</h2>
             <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Descargar CV</li>
+                <li><a href="https://github.com/Guillermo-Martin-Chippirraz" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/guillermo-martín-chippirraz-36958443b" target="_blank">LinkedIn</a></li>
+                <li><a href="Recursos/Docs/Guillermo Martín Chippirraz.pdf" download target="_blank">Descargar CV</a></li>
             </ul>
         </section>
-        <section>
+        <section id="formulario-contacto">
             <h2>Envíame un mensaje</h2>
-            <form action="/">
+            <form action="https://formspree.io/f/xwlpyral" method="post">
                 <div><label for="name">Nombre</label><input type="text" id="name" name="name" required></div>
                 <div><label for="email">Correo electrónico</label><input type="email" id="email" name="email" required></div>
                 <div><label for="subject">Asunto</label><input type="text" id="subject" name="subject" required></div>
