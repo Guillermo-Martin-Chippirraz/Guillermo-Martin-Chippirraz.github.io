@@ -224,9 +224,13 @@ a.link:hover {
 /* Botones */
 
 button {
+    min-width: 100px;
+    max-height: 40px;
     display: inline-block;
     padding: .9rem 1.4rem;
     border-radius: 10px;
+    border: none;
+    box-shadow: none;
     background: var(--primary);
     color: white;
     font-weight: 600;
@@ -236,6 +240,11 @@ button {
 button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
+}
+
+button:active {
+    transform: translateY(2px);
+    opacity: 1.0;
 }
 
 
