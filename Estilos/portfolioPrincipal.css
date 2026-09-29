@@ -69,6 +69,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-items: center;
     padding: 1rem 2rem;
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
@@ -286,7 +287,7 @@ footer {
 
 /* Resposive */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header {
         flex-direction: column;
         gap: 1rem;
